@@ -1,0 +1,24 @@
+{
+  "name": "israeli-phone",
+  "version": "1.0.0",
+  "description": "Validate, format and clean Israeli phone numbers by the Ministry of Communications numbering plan: mobile, landline, 07X, 1-800, *star numbers, E.164, WhatsApp links, Excel lists with duplicates, Hebrew error messages",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["*.js", "*.d.ts", "!test.js"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test.js" },
+  "keywords": ["israel", "phone", "phone-number", "validation", "e164", "whatsapp", "טלפון", "מספר טלפון", "hebrew", "libphonenumber"],
+  "author": "Aiterra <info@aiterra.co.il> (https://www.aiterra.co.il)",
+  "license": "MIT",
+  "homepage": "https://www.aiterra.co.il/tools/israeli-phone-format",
+  "repository": { "type": "git", "url": "git+https://github.com/aiterra-il/israeli-phone.git" },
+  "bugs": { "url": "https://github.com/aiterra-il/israeli-phone/issues" }
+}
